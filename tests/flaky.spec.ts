@@ -1,10 +1,6 @@
 import { expect, test } from '@playwright/test';
 
 
-// interface Window {
-//   isAppReady: boolean;
-// }
-
 //Fix the below scripts to work consistently and do not use static waits. Add proper assertions to the tests
 // Login 3 times sucessfully
 test('Login multiple times sucessfully @c1', async ({ page }) => {
